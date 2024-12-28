@@ -2,8 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model and vectorizer
-model = pickle.load(open('model.pkl', 'rb'))
-vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
+
 
 # Title and description
 st.title("SMS Spam Detection")
